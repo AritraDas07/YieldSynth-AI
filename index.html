@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="YieldSynth AI - Intelligent yield farming powered by genetic algorithms and reinforcement learning" />
+    <title>YieldSynth AI - Intelligent Yield Farming Platform</title>
+    
+    <!-- Preload fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Meta tags for better SEO -->
+    <meta property="og:title" content="YieldSynth AI - Intelligent Yield Farming" />
+    <meta property="og:description" content="Maximize your DeFi returns with AI-powered yield optimization" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Add custom CSS variables -->
+    <style>
+      :root {
+        --primary-gradient: linear-gradient(135deg, #667eea, #764ba2);
+        --secondary-gradient: linear-gradient(135deg, #f093fb, #f5576c);
+        --success-color: #00f5a0;
+        --warning-color: #ffb74d;
+        --error-color: #ff5252;
+        --glass-bg: rgba(255, 255, 255, 0.05);
+        --glass-border: rgba(255, 255, 255, 0.1);
+      }
+      
+      .slider::-webkit-slider-thumb {
+        appearance: none;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        cursor: pointer;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+      }
+      
+      .slider::-moz-range-thumb {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        cursor: pointer;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+      }
+      
+      @keyframes animate-in {
+        from {
+          opacity: 0;
+          transform: translateX(100%);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+      .animate-in {
+        animation: animate-in 0.3s ease-out;
+      }
+      
+      .slide-in-from-right-full {
+        animation: animate-in 0.3s ease-out;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
