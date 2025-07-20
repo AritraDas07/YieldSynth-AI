@@ -1,7 +1,5 @@
 # YieldSynth-AI
 
-# 🧠 YieldSynth AI
-
 <div align="center">
 
 ![YieldSynth AI Logo](https://img.shields.io/badge/YieldSynth-AI-667eea?style=for-the-badge&logo=ethereum&logoColor=white)
